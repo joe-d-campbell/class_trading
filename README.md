@@ -145,7 +145,7 @@ Every run automatically executes rigorous pre- and post-trade validations:
 
 ### Post-Trade Checks (`validate_post_trade`)
 1. **Capacity Conservation**: Total slots allocated to each course match baseline capacity.
-2. **Individual Rationality**: $\text{assigned\_rank}_i \le \text{baseline\_rank}_i$ for every student $i$.
+2. **Individual Rationality**: $\text{Rank}_i(\text{assigned}) \le \text{Rank}_i(\text{baseline})$ (`assigned_rank` $\le$ `baseline_rank`) for every student $i$.
 3. **Completeness**: Every student receives exactly one valid course; no one is dropped or duplicated.
 4. **Pareto Optimality**: Performs depth-first cycle search on the preference improvement graph to guarantee no improving trading cycles exist.
 
