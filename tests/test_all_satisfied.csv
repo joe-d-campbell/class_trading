@@ -1,0 +1,4 @@
+individuals,desired,baseline,micro,macro,metrics
+alice,micro,micro,1,2,2
+bob,macro,macro,2,1,2
+carol,metrics,metrics,2,2,1

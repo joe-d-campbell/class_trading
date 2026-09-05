@@ -1,0 +1,5 @@
+individuals,desired,baseline,micro,macro,metrics,finance
+alice,macro,micro,2,1,3,3
+bob,micro,macro,1,2,3,3
+carol,finance,metrics,3,3,2,1
+dave,metrics,finance,3,3,1,2
